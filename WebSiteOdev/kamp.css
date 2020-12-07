@@ -1,0 +1,121 @@
+.üst{
+    height: 250px;
+    width: 100%;
+    border-radius: 0px;
+    top: 50px;
+    float: right;
+}
+
+
+.sabitmenu {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0px; 
+    width: 99%;
+    border-radius: 5px;
+    float: right; 
+  }
+  
+ 
+  .sabitmenu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .sabitmenu a:hover {
+    background: #ddd;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .yanmenu {
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 270px; 
+    left: 8px;
+    background-color:white; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  
+  .yanmenu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #131212;
+    display: block;
+  }
+  
+
+  .yanmenu a:hover {
+    color: #4e89ce;
+  }
+  
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .yanmenu {padding-top: 15px;}
+    .yanmenu a {font-size: 18px;} 
+  }
+
+  .yazı{
+   width: 800px;
+   margin: auto;
+   font-size: 18px;
+    
+  }
+
+  .fotograf1{
+    border-radius: 5px;
+    top: 300px;
+    margin: auto;
+    float: right;
+    
+  }
+  .yazı1{
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+
+  }
+
+  .baslık{
+    width: 800px;
+    margin: auto;
+
+  }
+
+  .antalya{
+    border-radius: 5px;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+
+  }
+  .baslık1{
+    width: 800px;
+    margin: auto;
+    top: 350px;
+
+  }
+  .yazı2{
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+  }
